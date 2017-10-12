@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# forked from https://gist.github.com/dims/5000f40c539b6eac914f#file-keyutils-py
+
 import ecdsa
 import ecdsa.der
 import ecdsa.util

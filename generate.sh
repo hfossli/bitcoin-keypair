@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# forked from https://bitcoin.stackexchange.com/a/59646
+
 openssl_path='/usr/local/opt/openssl/bin/openssl'
 
 PRIVATE_PEM=`     $openssl_path ecparam -genkey -name secp256k1 -rand /dev/urandom -noout 2> /dev/null`
